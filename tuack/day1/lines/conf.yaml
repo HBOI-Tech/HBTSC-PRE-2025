@@ -1,21 +1,83 @@
 args:
-  n: 1000
+  n: 1000000
+  q: 1000000
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
   java: ''
   pas: -O2
   py: ''
-data: []
+data:
+- args:
+    n: \leq 10
+    q: \leq 10
+    spe: 无
+  cases:
+  - 1
+- args:
+    n: \leq 400
+    q: \leq 400
+    k: \leq n
+    spe: 无
+  cases:
+  - 2
+  - 3
+- args:
+    n: \leq 3000
+    q: \leq 5 \times 10^4
+    spe: 无
+  cases:
+  - 4
+  - 5
+  - 6
+- args:
+    n: \leq 5 \times 10^4
+    q: \leq 5 \times 10^4
+    spe: $l_1 \le l_2$
+  cases:
+  - 7
+  - 8
+- args:
+    n: \leq 5 \times 10^4
+    q: \leq 5 \times 10^4
+    spe: $k \le 10$
+  cases:
+  - 9
+  - 10
+- args:
+    n: \leq 5 \times 10^4
+    q: \leq 5 \times 10^4
+    spe: 无
+  cases:
+  - 11
+  - 12
+- args:
+    n: \leq 2 \times 10^5
+    q: \leq 2 \times 10^5
+    spe: 无
+  cases:
+  - 13
+  - 14
+  - 15
+  - 16
+- args:
+    n: \leq 10^6
+    q: \leq 10^6
+    spe: 无
+  cases:
+  - 17
+  - 18
+  - 19
+  - 20
 folder: problem
-memory limit: 512 MiB
+memory limit: 1024 MiB
 name: lines
 partial score: false
 pre: []
 samples: []
-time limit: 1.0
+time limit: 4.0
 title:
-  zh-cn: 用于试题标题的中文名称
+  zh-cn: 最后的台词
 type: program
 users: {}
 version: 2
