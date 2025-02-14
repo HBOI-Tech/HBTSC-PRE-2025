@@ -1,11 +1,11 @@
 folder: contest
 name: name for programmers
 short title:
-  zh-cn: 正式的简称
+  zh-cn: HBTSC2025-PRE
 subdir:
 - day1
 subtitle:
-  zh-cn: 子标题如冬令营
+  zh-cn: 省代表队选拔模拟测试
 title:
-  zh-cn: 正式的中文名称
+  zh-cn: 2025 年湖北省
 version: 2
