@@ -47,7 +47,6 @@
 
 {{ self.sample_file() }}
 
-{{ self.title_sample_description() }}
 
 样例 $2$ 满足测试点 $1\sim 3$ 的限制。
 
@@ -55,7 +54,6 @@
 
 {{ self.sample_file() }}
 
-{{ self.title_sample_description() }}
 
 样例 $3$ 满足测试点 $4\sim 6$ 的限制。
 
@@ -63,7 +61,6 @@
 
 {{ self.sample_file() }}
 
-{{ self.title_sample_description() }}
 
 样例 $4$ 满足测试点 $7\sim 10$ 的限制。
 
@@ -71,7 +68,6 @@
 
 {{ self.sample_file() }}
 
-{{ self.title_sample_description() }}
 
 样例 $5$ 满足测试点 $13\sim 15$ 的限制。
 
