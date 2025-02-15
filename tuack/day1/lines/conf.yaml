@@ -3,7 +3,7 @@ args:
   q: 1000000
 compile:
   c: -O2 -std=c11
-  cpp: -O2 -std=c++14
+  cpp: -O2 -std=c++14 -static
   java: ''
   pas: -O2
   py: ''
