@@ -7,6 +7,8 @@ compile:
   java: ''
   pas: -O2
   py: ''
+
+
 data:
 - args:
     n: \leq 10
@@ -79,5 +81,12 @@ time limit: 4.0
 title:
   zh-cn: 最后的台词
 type: program
-users: {}
+std:
+  std/std.cpp
+users:
+  std:
+    std: { expected: == 100, path: std/std.cpp }
+  EA:
+    wa1: { expected: < 100, path: EA/wa1.cpp }
+
 version: 2
