@@ -93,10 +93,7 @@
 
 {{ s('subtasks') }}
 
+对于全部的测试数据，保证 $2\le n\le 3\times 10^5$，$1\le v_i\le n$，$1\le p_i<i$。 
 
 {{ tbl('data') }}
 
-特殊性质 $\mathrm{A}$：满足 $v_i\le 10$。  
-
-
-对于全部的测试数据满足：$2\le n\le 2\times 10^5$，$1\le v_i\le n$，$1\le p_i<i$。  

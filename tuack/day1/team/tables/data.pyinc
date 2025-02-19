@@ -1,10 +1,10 @@
-ret = [["测试点","$n\le $","特殊性质 $\mathrm{A}$"]]	#注意右斜杠经常需要两次转义
+ret = [["测试点","$n\le $","特殊性质"]]	#注意右斜杠经常需要两次转义
 ret.append(["$1\sim 2$","20","不满足"])
 ret.append(["$3$","100","不满足"])
 ret.append(["$4\sim 5$","500","不满足"])
 ret.append(["$6\sim 7$","1000","不满足"])
 ret.append(["$8\sim 9$","5000","不满足"])
-ret.append(["$10\sim 11$","3\\times 10^5","满足"])
+ret.append(["$10\sim 11$","3\\times 10^5","$v_i \le 10$"])
 ret.append(["$12\sim 14$","10^5","不满足"])	
 ret.append(["$15\sim 17$","2\\times 10^5","不满足"])
 ret.append(["$18\sim 20$","3\\times 10^5","不满足"])
